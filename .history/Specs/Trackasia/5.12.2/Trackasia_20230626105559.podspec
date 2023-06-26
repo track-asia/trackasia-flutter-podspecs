@@ -6,7 +6,7 @@ s.homepage = 'https://github.com/track-asia-vn/'
 s.authors = { 'Trackasia' => '' }
 s.summary = 'Open source vector map solution for iOS with full styling capabilities.'
 s.platform = :ios
-s.source = { :http => 'https://github.com/track-asia-vn/trackasia-native/releases/download/ios-v5.12.2/Mapbox-5.12.2.zip' }
+s.source = { :http => 'https://github.com/track-asia-vn/trackasia-gl-native/releases/download/ios-v5.12.2/Mapbox-5.12.2.zip' }
 s.ios.deployment_target = '9.0'
 s.ios.vendored_frameworks = 'Mapbox.xcframework'
 end
