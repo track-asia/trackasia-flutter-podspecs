@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.name         = "trackasiaAnnotationExtension"
+  s.name         = "TrackasiaAnnotationExtension"
   s.version      = "0.0.1-beta.2"
 
   s.summary      = "Extension to support Trackasia's runtime styling annotations api."
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
    # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.authors      = { 'track-asia-vn' => 'github.com/track-asia-vn' }
+  s.authors      = { 'track-asia' => 'github.com/track-asia' }
   s.homepage     = "https://github.com/track-asia/trackasia-annotation-extension"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.requires_arc = true
-  s.module_name = "trackasiaAnnotationExtension"
-  s.dependency "trackasia", "~> 5.12.0"
+  s.module_name = "TrackasiaAnnotationExtension"
+  s.dependency "Trackasia", "~> 5.12.0"
 
   s.ios.deployment_target = '9.0'
 
