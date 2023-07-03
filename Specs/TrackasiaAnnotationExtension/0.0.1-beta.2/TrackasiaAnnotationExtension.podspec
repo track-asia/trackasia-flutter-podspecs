@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
    # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.authors      = { 'track-asia-vn' => 'github.com/track-asia-vn' }
-  s.homepage     = "https://github.com/track-asia-vn/trackasia-annotation-extension"
+  s.homepage     = "https://github.com/track-asia/trackasia-annotation-extension"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source       = { :git => "https://github.com/track-asia-vn/trackasia-annotation-extension.git" }
+  s.source       = { :git => "https://github.com/track-asia/trackasia-annotation-extension.git" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
