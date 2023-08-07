@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.module_name = "TrackasiaAnnotationExtension"
-  s.dependency "Trackasia", "~> 5.12.0"
+  s.dependency "Trackasia", "~> 1.0.0"
 
   s.ios.deployment_target = '9.0'
 
