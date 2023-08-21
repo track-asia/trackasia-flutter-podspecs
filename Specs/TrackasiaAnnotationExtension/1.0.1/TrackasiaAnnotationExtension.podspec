@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name         = "TrackasiaAnnotationExtension"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
 
   s.summary      = "Extension to support Trackasia's runtime styling annotations api."
   s.description  = "Provides an object oriented annotation api around runtime styling."
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.module_name = "TrackasiaAnnotationExtension"
-  s.dependency "Trackasia", "~> 1.0.1"
+  s.dependency "Trackasia", "~> 1.0.2"
 
   s.ios.deployment_target = '11.0'
 
